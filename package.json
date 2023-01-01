@@ -129,6 +129,7 @@
   },
   "scripts": {
     "build": "NODE_ENV=production webpack --config config/prod.webpack.config.js",
+    "build:foreman": "NODE_ENV=production webpack --config config/foreman.webpack.config.js",
     "test": "jest --passWithNoTests",
     "test:nocoverage": "jest --passWithNoTests --no-coverage",
     "test:snapshots": "jest -u --passWithNoTests --no-coverage",
